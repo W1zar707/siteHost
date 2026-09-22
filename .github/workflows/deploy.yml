@@ -1,8 +1,9 @@
 name: Создание приложения
 
 on:
-  - push
-  
+  push:
+    branches:
+      - main
 permissions:
   contents: read
   pages: write
